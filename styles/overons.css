@@ -1,0 +1,67 @@
+.ons	{
+	padding: 30px;
+}
+.link	{
+	position:absolute;
+	right: 0px;
+	top: 170px;
+}
+img.pijl	{
+	width: 15px;
+	margin-left: 5px;
+}
+a	{
+	text-decoration: none;
+	color: #961A45;
+}
+a:hover {
+	text-decoration: underline;
+}
+.deel1	{
+	float:left;
+	width: 600px;
+}
+.deel2	{
+	float: right;
+	margin-right: 20px;
+	
+}
+.deel2 img	{
+	width: 220px;
+}
+.deel2-knop	{
+	margin-top: 10px;
+	
+}
+.knop	{
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	border-radius: 5px;
+	border-color: #961A45;
+}
+.knop:hover{
+	box-shadow: 0 0 20px #515151;
+}
+.deel3	{
+	margin-top: 250px;
+}
+.deel4, .deel5, .deel6, .deel7	{
+	margin-top: 10px;
+}
+h1, h2	{
+	color: #961A45;
+}
+.tech	{
+	width: 300px;
+	height: 35px;
+	background-color: #961A45;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.tech:hover	{
+	box-shadow: 0 0 20px #515151;
+}

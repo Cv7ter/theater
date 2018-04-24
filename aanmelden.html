@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Aanmelden</title>
+		<link rel="stylesheet" type="text/css" href="styles/basis-layout.css">
+		<link rel="stylesheet" type="text/css" href="styles/aanmelden.css">
+		<script type="text/javascript">
+			function showNieuwsbriefBevesting()	{
+				alert('Het inschrijven is gelukt! U zal de nieuwsbrief via de mail ontvangen.');
+			}
+			function showAanmelden()	{
+				alert('Gefeliciteerd het aanmelden is gelukt! U krijgt een mail ter bevesting.');
+			}
+		
+		</script>
+	</head>
+	<body>
+		<div class="page">
+			<header>
+				<div class="logo"> <!--imperium logo-->
+				<a href="homepagina.html"><img class="logo-main" src="pictures/logo-main.png" alt="logo" title="logo" /></a><!--gekleurde vak boven bij de naviagtie-->
+				</div>
+				<nav class="navigation-main"> <!--naviagtie boven in-->
+					<ul>
+						<li class=""><a href="homepagina.html">Home</a></li>
+						<li class=""><a href="theatervoorstellingen.html">Theatervoorstellingen</a></li>
+						<li class=""><a href="overons.html">Over ons</a></li>
+						<li class=""><a href="deleden.html">De leden</a></li>
+						<li class=""><a href="60jaarbestaan.html">60 jaar bestaan</a></li>
+						<li class="active"><a href="aanmelden.html">Aanmelden</a></li>				
+					</ul>
+				</nav>
+				<nav class="navigation-top"> <!--links naar andere pagina's, rechts boven in-->
+					<ul>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="resensies.html">Resensies</a></li>
+						<li><a href="https://www.facebook.com/ToneelgroepImperium/"><img class="logo-facebook" src="pictures/facebooklogo.png" alt="logo" title="logo" /></a></li> <!--link naar facebook-->
+						<li><a href="https://twitter.com/imperiumtheater"><img class="logo-twitter" src="pictures/twitterlogo.png" alt="logo" title="logo" /></a></li> <!--link naar twitter-->
+					</ul>
+				</nav>
+			</header>
+			
+			<section>
+				<form class="form" action="" ><!--formulier, het wordt negens naar toe gestruurd omdat dat niet hoeft-->
+					<div class="formfield">
+						<div class="formdeel">
+								<p>Lijkt het u leuk om lid te worden bij ons theater. <a href="lidworden.html">Klik hier</a><!--tekst boven in het fomulier, introductie-->
+								<p>Meld je dan aan!</p><br />
+								<p class="link">Wil je meer weten over ons. <a href="overons.html">Klik hier</a><a href="overons.html"><img class="pijl" src="pictures/next.png" alt="pijl" title="pijl" </p></a><!--link naar over ons, staat rechts boven-->
+								<ul>	
+									<li><label><input type="text" class="voornaam" name="voornaam" placeholder="Voornaam"/></label></li><!--invoerveld voor voornaam-->
+									<li><label><input type="text" name="tussenvoegsel" placeholder="Tussenvoegsel"/></label><!--invoerveld voor tussenvoegsel-->
+									<label><input type="text" name="achternaam" placeholder="Achternaam"/></label></li><!--invoerveld voor achternaam-->
+									<li><label><input type="text" name="straatnaam" placeholder="Straatnaam"/></label><!--invoerveld voor straatnaam-->
+									<label><input type="text" name="nummer" placeholder="Nummer"/></label></li><!--invoerveld voor nummer-->
+									<li><label><input type="text" name="postcode" placeholder="Postcode"/></label><!--invoerveld voor postcode-->
+									<label><input type="text" name="plaatsnaam" placeholder="Plaatsnaam"/></label></li><!--invoerveld voor plaatsnaam-->
+									<li><label><input type="text" name="geboortedatum" placeholder="Geboortedatum"/></label></li><!--invoerveld voor geboortedaum-->
+									<li><label><input type="text" name="telefoonnummer" placeholder="Telefoonnummer"/></label></li><!--invoerveld voor telefoonnummer-->
+									<li><label><input type="text" class="" name="mobiele nummer" placeholder="Mobiele nummer"/></label></li><!--invoerveld voor mobiele nummer-->
+									<li><label><input type="email" class="" name="email" placeholder="E-mailadres"/></label></li><!--invoerveld voor emailadres-->
+									<li><label>Ondersteunend commissiewerk:<br /><!--meerdere mogelijkheden om te kiezen, wat voor ondersteunend commissiewerk ze willen doen-->
+										<select name="ondersteunendwerk" >
+											<option value="Decor bouwen">Decor bouwen</option>
+											<option value="Kleding maken/ uitzoeken">Kleding maken/ uitzoeken</option>
+											<option value="Teksten schrijven voor impressie en website">Teksten schrijven voor impressie en website</option>
+											<option value="Techniek licht/ geluid">Techniek (licht/ geluid)</option>
+											<option value="Algemene PR activteiten">Algemene PR activteiten</option>
+											<option value="Fotos maken voor PR">Foto's maken (voor PR)</option>
+											<option value="Website onderhouden">Website onderhouden</option>
+											<option value="Anders te weten">Anders te weten</option>
+										</select></li>
+									</label>
+									<label><!--radio button, om te kiezen of ze aanvullende activitieten willen doen of gewoon lid willen zijn-->
+										<li><input type="radio" name="intresse" value="aanvullende activteiten" checked="checked" /> Ik word toneelspelend lid met aanvullende activitieten<br />
+										<input type="radio" name="intresse" value="lid" checked="checked" /> Ik word alleen lid van een commissie</li>
+									</label>
+									<li><button class="button" onclick="showAanmelden();">Verzenden</button></li><!--het verzenden van het formulier-->
+								</ul>
+						</div>
+					</div>
+				</form>
+			</section>
+			
+			<footer>
+				<div class="footerbackground-color"> <!--grijze vlak bij de footer-->
+					<nav class="naviagtion-bottom"> <!--adres, links en inschrijven in de footer-->
+						<div class="footer1"> <!--adres links onder in de footer-->
+							<ul>
+								<li class="adres-titel-footer">Theather Imperium</li>
+								<li>Oude vest 33e</li>
+								<li>2312 XR Leiden</li>
+								<li>0705141035</li>										
+							</ul>
+						</div>
+						<div class="footer2"> <!--3 links naar andere pagina in het midden van de footer-->
+							<ul>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="vragen.html">Vragen</a></li>
+								<li><a href="nieuwsbrief.html">Nieuwsbrief</a></li>
+							</ul>
+						</div>
+						<div class="footer3"> <!--niewsbrief inschrijven rechts van de footer-->
+							<ul>
+								<li>Blijf ons volgen!</li>
+								<li>Schrijf je in voor de nieuwsbrief.</li>
+								<label><li class="emailveld"><input type="email" name="email" placeholder="Uw email"</li><!--invoer veld voor de email in de footer--><button class="button-footer" onclick="showNieuwsbriefBevesting();">Schrijf je in</button></label> <!--de knop waar je op druk als je wil in scrhijven voor de nieuwsbrief-->
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</footer>
+		</div>	
+	</body>
+</html>

@@ -1,0 +1,46 @@
+.form	{
+	height: 100%;
+	background: url("../pictures/lijn1.png") no-repeat;
+	background-position: 10px 70px;
+}
+.formfield	{
+	padding: 20px 25px;
+	
+}
+.formfield ul li	{
+	list-style-type: none;
+}
+.formdeel li	{
+	margin-bottom: 35px;
+}
+.formdeel input:hover	{
+	border-color: #8E878A;
+}
+.button	{
+	margin-top: 27px;
+	padding: 5px 15px;
+	background-color: #149BD6;
+	color: white;
+	width: 100px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.button:hover{
+	box-shadow: 0 0 20px #515151;
+}
+.link	{
+	position:absolute;
+	right: 0px;
+	top: 170px;
+}
+img.pijl	{
+	width: 15px;
+	margin-left: 5px;
+}
+a	{
+	text-decoration: none;
+	color: #961A45;
+}
+a:hover {
+	text-decoration: underline;
+}

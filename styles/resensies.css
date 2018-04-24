@@ -1,0 +1,59 @@
+.pagina	{
+	width: 100%;
+	padding: 10px;
+}
+.deel {
+	width: 550px;
+	overflow: hidden;
+	margin: 40px 30px;
+	padding-right: 30px; 
+}
+
+.tekst p	{
+	width: 300px;
+}
+.foto	{
+	float: left;
+}
+.tekst	{
+	float: right;
+}
+.foto1	{
+	width: 140px;
+}
+.foto2	{
+	width: 210px;
+}
+.foto3	{
+	width: 150px;
+}
+.knop	{
+	margin-top: 27px;
+	padding: 5px 15px;
+	background-color: white;
+	width: 150px;
+	border-radius: 5px;
+	font-weight: bold;
+	border-color: #961A45;
+}
+.knop:hover{
+	box-shadow: 0 0 30px #515151;
+}
+.knopnieuwsbrief	{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	padding: 5px 15px;
+	background-color: #149BD6;
+	color: white;
+	width: 180px;
+	border-radius: 7px;
+	font-weight: bold;
+	
+}
+.tekstnieuwsbrief	{
+	margin-left: 30px;
+}
+.knopnieuwsbrief:hover	{
+	box-shadow: 0 0 30px #515151;
+}

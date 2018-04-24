@@ -1,0 +1,140 @@
+/*basis css stijlen*/
+*	{	
+	margin: 0px;
+	font-family: arial;
+}
+div.page {
+	width: 960px;
+	min-height: 100%;
+	margin: 0px auto 0px auto;
+	position: relative;
+}
+.logo	{
+	width: 100%;
+	height: 100px;
+	background: url("../pictures/logo.png") no-repeat 0;
+	padding: 5px;
+}
+img.logo-main	{
+	width: 90px;
+	margin: 5px auto;
+	display: block;
+	
+}
+.navigation-main	{
+	background-color: #D8CECE;
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+
+}
+.navigation-main ul{
+	padding: 0px;
+	list-style: none;
+	display: block;
+	
+}
+.navigation-main ul li a {
+	display: block;
+	padding: 5px 10px;
+	float: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: #961A45;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.navigation-main ul li.active a,
+.navigation-main ul a:hover {
+	color: #961A45;
+	border-bottom: 5px solid #E52421;
+	padding-bottom: 5px;
+}
+.navigation-main ul a:active {
+	border-bottom: 5px solid #E52421;
+	padding-bottom: 5px;
+}
+.navigation-top	{
+	width: 400px;
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	left:670px;
+	
+}
+.navigation-top	ul {
+	list-style: none;
+	
+}
+.navigation-top	ul li a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 7px 7px;
+	color: white;
+}
+.navigation-top ul li a:hover {
+	text-decoration: underline;
+}
+img.logo-facebook	{
+	width: 30px;
+}
+img.logo-twitter	{
+	width: 35px;
+}
+.footerbackground-color	{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: #D8CECE;
+	clear: both;
+}
+.footer1 ul	{
+	list-style-type: none;
+	text-decoration: none;
+	color: #4C4C48;
+}
+.footer2 ul {
+	list-style-type: none;
+	color: #4C4C48;
+}
+.footer2 ul li a{
+	text-decoration: none;
+	color: #4C4C48;
+}
+.footer2 ul li a:hover {
+	text-decoration: underline;
+}
+.footer3 ul {
+	list-style-type: none;
+	text-decoration: none;
+	color: #4C4C48;
+}
+nav.naviagtion-bottom ul	{
+	display: block;
+	padding: 5px 10px;
+	float: left;
+	padding: 12px 75px;
+}
+li.emailveld	{
+	margin-top: 10px;
+}
+.footer2 ul li{
+	margin-bottom: 5px;
+}
+li.adres-titel-footer{
+	margin-bottom: 7px;
+	font-weight: bold;
+}
+.button-footer	{
+	background-color: #149BD6;
+	color: white;
+	width: 100px;
+	border-radius: 5px;
+}
+.button-footer:hover	{
+	box-shadow: 0 0 30px #515151;
+}
+
+

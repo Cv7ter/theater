@@ -1,0 +1,45 @@
+.pagina	{
+	width: 100%;
+	padding: 10px;
+}
+.deel1 {
+	width: 550px;
+	overflow: hidden;
+	margin: 40px 30px;
+	padding-right: 30px; 
+}
+
+.tekst1 p	{
+	width: 200px;
+}
+.foto1	{
+	float: left;
+}
+.tekst1	{
+	float: right;
+	margin-right: 150px;
+	font-weight: bold;
+}
+.foto1	{
+	width: 210px;
+}
+.pijl-terug	{
+	width: 20px;
+}
+.pijl-terug	{
+	float: left;
+}
+.terug	{
+	margin: 10px;
+	background-color: white;
+	border-radius: 5px;
+	border-color: #961A45;
+	width: 80px;
+}
+.knop-tekst	{
+	margin: 1px;
+}
+.block	{
+	background-color: #F297B9;
+	padding: 10px;
+}

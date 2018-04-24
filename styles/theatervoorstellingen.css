@@ -1,0 +1,50 @@
+.agenda	{
+	height: 100%;
+}
+.deel {
+	width: 295px;
+	overflow: hidden;
+	margin: 20px 30px;
+	padding-right: 30px;
+}
+.deel.last	{
+	width: 380px;
+}
+.plaatje {
+	float: left;
+}
+.tekst	{
+	float: right;
+	font-weight: bold;
+}
+.title	{
+	color: #961A45;
+}
+.button-kaartjesbestellen	{
+	margin-top: 25px;
+	padding: 5px 15px;
+	background-color: #961A45;
+	color: white;
+	width: 150px;
+	border-radius: 5px;
+	font-weight: bold;
+	
+}
+.button-resensies	{
+	position: absolute;
+	top: 160px;
+	right: 10px;
+	margin-top: 27px;
+	padding: 5px 15px;
+	background-color: #149BD6;
+	color: white;
+	width: 180px;
+	border-radius: 7px;
+	font-weight: bold;
+}
+.button-kaartjesbestellen:hover	{
+	box-shadow: 0 0 15px #515151;
+}
+.button-resensies:hover	{
+	box-shadow: 0 0 15px #515151;
+}

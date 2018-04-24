@@ -1,0 +1,36 @@
+.form	{
+	height: 100%;
+	background: url("../pictures/vragen-lijn.png") no-repeat;
+	background-position: 10px 70px;
+}
+.formfield	{
+	padding: 20px 25px;
+}
+.groep-invoervelden	{
+	margin-top: 22px;
+}
+.formfield ul li	{
+	list-style-type: none;
+}
+.formdeel li	{
+	margin-bottom: 35px;
+}
+.formdeel input:hover	{
+	border-color: #8E878A;
+}
+.button	{
+	margin-top: -15px;
+	padding: 5px 15px;
+	background-color: #149BD6;
+	color: white;
+	width: 100px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.button:hover{
+	box-shadow: 0 0 20px #515151;
+}
+.vraag-invoervelden	{
+	width: 200px;
+}
+

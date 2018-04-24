@@ -1,0 +1,32 @@
+.kaderfoto	{
+	width: 960px;
+	overflow: hidden;
+	padding: 30px 10px;
+}
+
+.kaderfoto figure	{
+	float: left;
+	width: 163px;
+	height: 142px;
+	margin: 35px;
+} 
+.kaderfoto figure figcaption	{
+	color: #961A45;
+	font-weight: bold;
+}
+.link	{
+	position:absolute;
+	right: 0px;
+	top: 170px;
+}
+img.pijl	{
+	width: 15px;
+	margin-left: 5px;
+}
+a	{
+	text-decoration: none;
+	color: #961A45;
+}
+a:hover {
+	text-decoration: underline;
+}

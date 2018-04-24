@@ -1,0 +1,30 @@
+.tekst	{
+	padding: 30px 50px;;
+}
+h1	{
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+h2	{
+	font-size: 17px;
+} 
+.color	{
+	background-color: #F297B9;
+	margin-top: 20px;
+}
+.pijl-terug	{
+	width: 20px;
+}
+.pijl-terug	{
+	float: left;
+}
+.terug	{
+	margin: 10px;
+	background-color: white;
+	border-radius: 5px;
+	border-color: #961A45;
+	width: 80px;
+}
+.knop-tekst	{
+	margin: 1px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Theatervoorstellingen</title>
+			<link rel="stylesheet" type="text/css" href="styles/basis-layout.css">
+			<link rel="stylesheet" type="text/css" href="styles/theatervoorstellingen.css">
+			<script type="text/javascript">
+				function showNieuwsbriefBevesting()	{
+					alert('Het inschrijven is gelukt! U zal de nieuwsbrief via de mail ontvangen.');
+				}
+				function showKnopKaartjes()	{
+					alert('Op dit moment kan er niks besteld worden. Sorry voor het ongemak.');
+				}
+				function kalender()	{
+					alert('Op dit moment kunt u niet naar de kalender toe. Sorry voor het ongemak.');
+				}
+		
+			</script>
+		</head>
+		<body>
+			<div class="page">
+				<header>
+					<div class="logo"> <!--imperium logo-->
+					<a href="homepagina.html"><img class="logo-main" src="pictures/logo-main.png" alt="logo" title="logo" /></a><!--gekleurde vak boven bij de naviagtie-->
+					</div>
+					<nav class="navigation-main"> <!--naviagtie boven in-->
+						<ul>
+							<li class=""><a href="homepagina.html">Home</a></li>
+							<li class="active"><a href="theatervoorstellingen.html">Theatervoorstellingen</a></li>
+							<li class=""><a href="overons.html">Over ons</a></li>
+							<li class=""><a href="deleden.html">De leden</a></li>
+							<li class=""><a href="60jaarbestaan.html">60 jaar bestaan</a></li>
+							<li class=""><a href="aanmelden.html">Aanmelden</a></li>				
+						</ul>
+					</nav>
+					<nav class="navigation-top"> <!--links naar andere pagina's, rechts boven in-->
+						<ul>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="resensies.html">Resensies</a></li>
+							<li><a href="https://www.facebook.com/ToneelgroepImperium/"><img class="logo-facebook" src="pictures/facebooklogo.png" alt="logo" title="logo" /></a></li> <!--link naar facebook-->
+							<li><a href="https://twitter.com/imperiumtheater"><img class="logo-twitter" src="pictures/twitterlogo.png" alt="logo" title="logo" /></a></li> <!--link naar twitter-->
+						</ul>
+					</nav>
+				</header>
+				
+				<section>
+					<div class="agenda">
+						<div class="deel"><!--16 maart voorstelling-->				
+							<div class="plaatje">
+								<img class="maart-date" src="pictures/date1.png" alt="16maart" title="16maart" /><!--foto van 16 maart-->
+							</div>
+							<div class="tekst">	
+								<p><div class="title">Kleine Teun</div><!--de titel van de voorstelling-->
+								20:30 uur<br /><!--de tijd-->
+								&euro; 12,-<br /><!--het bedrag-->
+								<button class="button-kaartjesbestellen" onclick="showKnopKaartjes();">Kaartjes bestellen</button></p></li><!--de knop om kaartjes de bestellen, maar de button werkt niet-->
+							</div>
+						</div>									
+						<div class="deel"><!--1 maart voorstelling-->	
+							<div class="plaatje">
+								<img class="maart-date" src="pictures/date2.png" alt="17maart" title="17maart" /><!--foto van 17 maart-->
+							</div>
+							<div class="tekst">
+								<p><div class="title">Kleine Teun</div><!--de titel van de voorstelling-->
+								20:30 uur<br /><!--de tijd-->
+								&euro; 12,-<br /><!--het bedrag-->
+								<button class="button-kaartjesbestellen" onclick="showKnopKaartjes();">Kaartjes bestellen</button></p><!--de knop om kaartjes de bestellen, maar de button werkt niet-->
+							</div>
+						</div>	
+						<div class="deel"><!--18 maart voorstelling-->	
+							<div class="plaatje">
+								<img class="maart-date" src="pictures/date3.png" alt="18maart" title="18maart" /><!--foto van 18 maart-->
+							</div>
+							<div class="tekst">
+								<p><div class="title">Kleine Teun</div><!--de titel van de voorstelling-->
+								20:30 uur<br /><!--de tijd-->
+								&euro; 12,-<br /><!--het bedrag-->
+								<button class="button-kaartjesbestellen" onclick="showKnopKaartjes();">Kaartjes bestellen</button></p><!--de knop om kaartjes de bestellen, maar de button werkt niet-->
+							</div>
+						</div>
+						<div class="deel"><!--1 april voorstelling-->	
+							<div class="plaatje">
+								<img class="maart-date" src="pictures/date4.png" alt="1april" title="1april" /><!--foto van 1 april-->
+							</div>
+							<div class="tekst">
+								<p><div class="title">Kleine Teun</div><!--de titel van de voorstelling-->
+								20:30 uur<br /><!--de tijd-->
+								&euro; 12,-<br /><!--het bedrag-->
+								<button class="button-kaartjesbestellen" onclick="showKnopKaartjes();">Kaartjes bestellen</button></p><!--de knop om kaartjes de bestellen, maar de button werkt niet-->
+							</div>
+						</div>
+						<div class="deel last"><!--alle data-->	
+							<div class="plaatje">	
+								<img class="maart-date" src="pictures/date5.png" alt="alledata" title="alledata" /><!--foto van alle data-->
+							</div>
+							<div class="tekst">
+								<p><div class="title">Kleine Teun</div><!--titel voor alle data-->
+								Ga naar de Imperium kalander<br /><!--verwijzende tekst-->
+								<button class="button-kaartjesbestellen" onclick="kalender();">Naar kalender</button></p><!--de knop om naar de kalander te gaan, maar de button werkt niet-->
+							</div>
+						</div>
+						<a href="resensies.html"><button class="button-resensies">Bekijk de resensies</button></a>
+												
+					</div>
+				</section>
+				<footer>
+					<div class="footerbackground-color"> <!--grijze vlak bij de footer-->
+						<nav class="naviagtion-bottom"> <!--adres, links en inschrijven in de footer-->
+							<div class="footer1"> <!--adres links onder in de footer-->
+								<ul>
+									<li class="adres-titel-footer">Theather Imperium</li>
+									<li>Oude vest 33e</li>
+									<li>2312 XR Leiden</li>
+									<li>0705141035</li>										
+								</ul>
+							</div>
+							<div class="footer2"> <!--3 links naar andere pagina in het midden van de footer-->
+								<ul>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="vragen.html">Vragen</a></li>
+									<li><a href="nieuwsbrief.html">Nieuwsbrief</a></li>
+								</ul>
+							</div>
+							<div class="footer3"> <!--niewsbrief inschrijven rechts van de footer-->
+								<ul>
+									<li>Blijf ons volgen!</li>
+									<li>Schrijf je in voor de nieuwsbrief.</li>
+									<label><li class="emailveld"><input type="email" name="email" placeholder="Uw email"</li><!--invoer veld voor de email in de footer--><button class="button-footer" onclick="showNieuwsbriefBevesting();">Schrijf je in</button></label> <!--de knop waar je op druk als je wil in scrhijven voor de nieuwsbrief-->
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</footer>
+			</div>	
+		</body>
+	</html>

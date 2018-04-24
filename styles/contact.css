@@ -1,0 +1,37 @@
+.pagina	{
+	padding: 10px 10px;
+	width: 900px;
+}
+.deel1, .deel2, .deel3	{
+	width: 380px;
+	height: 100px;
+	margin: 10px;
+	
+}
+.deel1	{
+	background-color: #F297B9;
+	padding: 10px 20px;
+	float: left;
+}
+.deel2	{
+	background-color: #F297B9;
+	padding: 10px 20px;
+	float: left;
+}
+.deel2 a	{
+	text-decoration: none;
+	
+}
+.deel2 a:hover	{
+	text-decoration: underline;
+	
+}
+.deel3	{
+	background-color: #F297B9;
+	padding: 10px 20px;
+	float: left;
+}
+h1	{
+	color: #961A45;
+}
+

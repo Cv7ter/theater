@@ -1,0 +1,26 @@
+.hele-pagina	{
+	padding: 30px;
+}	
+.pijl	{
+	width: 50px;
+}
+h1	{
+	color: #961A45;
+}
+.color	{
+	background-color: #F297B9;
+}
+.aanmeld 	{
+	width: 150px;
+	height: 30px;
+	background-color: #961A45;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-top: 5px;
+	float: right;
+}
+.aanmeld:hover	{
+	box-shadow: 0 0 20px #515151;
+}
